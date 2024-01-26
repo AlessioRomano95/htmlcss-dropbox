@@ -326,3 +326,25 @@ margin-right: 45px;
     margin-left: 0px;
     margin-top: 30px;
   }
+
+/*operation*/
+.operation{
+  width: 1000px;
+  height: 100px;
+}
+
+.row-o{
+  display: flex;
+}
+
+.col-o{
+  padding: 20px;
+}
+
+.img img{
+  width: 250px;
+}
+
+.img h3{
+  margin-bottom: 30px;
+}
