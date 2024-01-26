@@ -66,7 +66,7 @@ display: flex;
 
 .cont-jumbo{
   width: 1200px;
-  height: 1000px;
+  height: 500px;
   display: flex;
 }
 
@@ -115,7 +115,6 @@ h1{
 /*plane business*/
 .plan{
   width: 1000px;
-  height: 300px;
   margin-top: 150px;
   font-size: 15px;
 }
@@ -131,4 +130,94 @@ label[for*=month]{
 margin-right: 45px;
 }
 
-/*------------------------------------------------------------*/
+
+
+/*price*/
+.row{
+  width: 1000px;
+  margin-top: 50px;
+  gap: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col{
+  flex-basis: calc(100% / 3 - 80px / 3);
+  border: 1px solid #d0d0d3;
+  padding-bottom: 20px;
+}
+
+.title-card{
+  border-bottom: 1px solid #d0d0d3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 110px;
+}
+
+/*card*/
+.main-card{
+  width: 80%;
+  margin-top: 20px;
+}
+
+#h2{
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  }
+
+.main-card h4{
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+
+#euro{
+  font-weight: 600;
+}
+
+.main-card p{
+  margin-bottom: 15px;
+}
+
+.main-card .time{
+  color: #707070;
+}
+
+.main-card .user{
+  padding-top: 20px;
+}
+
+.text-main-card{
+  display: flex;
+}
+
+.text-main-card > i{
+  flex-shrink: 0;
+  padding-top: 5px;
+  padding-right: 5px;
+}
+
+.blue{
+  color: #0061FF;
+}
+
+/*extra*/
+.main-card > button{
+    background-color: #0061ff;
+    color: white;
+    border: #0061ff;
+    text-align: center;
+    width: 100%;
+    padding:10px 0px;
+    margin: 40px 0px;
+  }
+
+.line{
+  width: 50px;
+  height: 40px;
+  border-bottom: 1px solid #d0d0d3;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
